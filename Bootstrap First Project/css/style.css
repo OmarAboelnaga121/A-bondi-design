@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100&display=swap');
 :root{
-    --primary-color: #192834;
+    --primary-color: #1c2c3c;
     --green-color: #33d1cc;
     --red-color: #ff3150;
     --yellow-color: #ffc400;
@@ -9,10 +9,7 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-body{
-    height: 10000px;
-    overflow-x: hidden;
-}
+
 .main-btn{
     background-color: var(--red-color);
     color: var(--yellow-color);
@@ -135,8 +132,57 @@ body{
     background-color: var(--green-color);
 }
 /* End Team */
-/* Start brands */
-.brands{
-    
+/* Start project */
+.project{
+    background-color: var(--primary-color);
 }
-/* End brands */
+.project .heading{
+    color: #fff;
+}
+/* End project */
+/* start footer */
+.footer{
+    background-color: var(--yellow-color);
+    margin-top: 4rem;
+}
+.footer input{
+    border: 0;
+    background-color: var(--yellow-color);
+    border-bottom: 1px solid #fff;
+    width: 50%;
+    color: #fff;
+}
+.footer input::placeholder { 
+    color:    #fff;
+ }
+ 
+ .footer input:focus{
+
+    outline: none;
+ }
+.sec-btn{
+    background-color: var(--primary-color );
+    color: var(--yellow-color);
+    padding: 0.5em;
+    text-decoration: 0.5rem;
+}
+.main-footer{
+    background-color: var(--primary-color);
+}
+.main-footer ul li a{
+    text-decoration: none;
+} 
+.main-footer .sec{
+    height: 20px;
+    width: 20px;
+}
+.main-footer .facebook{
+    background-color: #1877f2;
+
+}
+.main-footer .twitter{
+    background-color: #1da1f2;
+    padding: 0.8rem;
+}
+
+/* End footer */
