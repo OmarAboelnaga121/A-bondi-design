@@ -178,11 +178,27 @@
 }
 .main-footer .facebook{
     background-color: #1877f2;
-
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 50%;
 }
 .main-footer .twitter{
     background-color: #1da1f2;
-    padding: 0.8rem;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+    
 }
-
+.main-footer .linkedin{
+    background-color: #0a66c2;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+}
+.main-footer .youtube{
+    background-color: #ff0000;
+    font-size: 1.3rem;
+    padding: 0.6rem;
+    border-radius: 50%;
+}
 /* End footer */
